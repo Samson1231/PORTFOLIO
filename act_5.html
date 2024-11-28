@@ -1,0 +1,95 @@
+<html>
+ <head>
+  <title>
+   James Borris R. Samson
+  </title>
+  <style>
+   body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .profile-pic-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .nav div, .nav button {
+            padding: 10px 20px;
+            border: 1px solid black;
+            margin: 0 5px;
+            font-weight: bold;
+            background-color: white;
+            cursor: pointer;
+        }
+        .nav button:hover {
+            background-color: lightgray;
+        }
+        .content {
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid black;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .logo-container {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .logo-container img {
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+        }
+  </style>
+  <script>
+   function redirectToAbout() {
+            window.location.href = 'about.html';
+        }
+        function redirectToContact() {
+            window.location.href = 'contact.html';
+        }
+  </script>
+ </head>
+ <body>
+  <div class="profile-pic-container">
+   <div class="profile-pic">
+    <img alt="Profile picture of James Borris R. Samson" height="100" src="https://scontent.fmnl8-3.fna.fbcdn.net/v/t1.15752-9/462650049_548071944706681_408946879874174519_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGDT9RUCKHNlDHHH_VLVsEUyaSFQJCc3FPJpIVAkJzcU_tQrZEFWdoOGOr-Wlt6u5D_nyUrJq6Rttq3rfj-hW4V&_nc_ohc=YYErstWcUssQ7kNvgHfuA6_&_nc_zt=23&_nc_ht=scontent.fmnl8-3.fna&oh=03_Q7cD1QFZAe3TSpk9wio0UQDnheX6-k89crB1mAk6W5_h5P4Rgw&oe=676AB63C" width="100"/>
+   </div>
+  </div>
+  <div class="logo-container">
+   <img alt="City of Malabon University logo" height="100" src="https://scontent.fmnl8-5.fna.fbcdn.net/v/t1.15752-9/421265248_697017549287532_9137518881082523628_n.png?_nc_cat=109&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGrOmf0nPGFB6OoGLufc3wmwnDzha8ygCPCcPOFrzKAI3vt1UNMYSEnfs1lKheyrhfxPyPzCp7KJh92nYzu5hBp&_nc_ohc=B1PrTxSn0f0Q7kNvgG1O2Kb&_nc_zt=23&_nc_ht=scontent.fmnl8-5.fna&oh=03_Q7cD1QEMYxFQ565xfn4zOGoJApnhqnfByM11jyGDUPvVyi7hQg&oe=676A8F1F" width="100"/>
+  </div>
+  <div class="nav">
+   <div>
+    Hi! My Name is James Borris R. Samson
+   </div>
+   <button onclick="redirectToAbout()">
+    ABOUT ME
+   </button>
+   <button onclick="redirectToContact()">
+    CONTACT ME
+   </button>
+  </div>
+  <div class="content">
+   WELCOME! I'm SAMSON, JAMES BORRIS R. Studying Bachelor of Science in Information Technology (BSIT) at City Of Malabon University. I hope I could offer any help for you.
+  </div>
+ </body>
+</html>
